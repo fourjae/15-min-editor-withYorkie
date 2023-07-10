@@ -4,4 +4,10 @@
 
 # # CodeMirror 에디터 만들기
 
-1. index.html 생성
+https://github.com/yorkie-team/yorkie-js-sdk/blob/main/public/index.html
+
+### Docker Server 실행
+
+- git clone https://github.com/yorkie-team/yorkie-js-sdk.git
+
+- docker-compose -f docker/docker-compose.yml up --build -d
