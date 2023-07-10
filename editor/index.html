@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!--  <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/6.65.7/codemirror.min.js" integrity="sha512-8RnEqURPUc5aqFEN04aQEiPlSAdE0jlFS/9iGgUyNtwFnSKCXhmB6ZTNl7LnDtDWKabJIASzXrzD0K+LYexU9g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.48.4/codemirror.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/6.65.7/codemirror.min.css" integrity="sha512-uf06llspW44/LZpHzHT6qBOIVODjWtv4MxCricRxkzvopAlSWnTf6hpZTFxuuZcuNE9CBQhqE0Seu1CoRk84nQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/yorkie-js-sdk/0.2.11/yorkie-js-sdk.js"></script>
+    <script src="./yorkie-js-sdk/dist/yorkie-js-sdk.js"></script>
+    <title>editor</title>
+
+</head>
+
+<body>
+    <div>
+    <div>status: <span id="network-status"></span></div>
+    
+    <textarea id="placeholder" name="" cols="30" rows="10"></textarea>
+    <div>peers:</div>
+    <pre style="white-space: pre-wrap"><code id="peers-holder"></code></pre>
+    <div>document:</div>
+        <pre style="white-space: pre-wrap"><code id="log-holder"></code></pre>
+        <div>text:</div>
+        <pre
+          style="white-space: pre-wrap"
+        ><code id="text-log-holder"></code></pre>
+    </div>
+    <script src="./util.js"></script>
+    <script src="./main.js"></script>
+    
+</body>
+</html>
